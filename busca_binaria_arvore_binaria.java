@@ -1,6 +1,5 @@
-// === Parte 1: Busca Binária com Lista Ordenada ===
 
-// Produto.java
+
 public class Produto implements Comparable<Produto> {
     private int id;
     private String nome;
@@ -27,7 +26,7 @@ public class Produto implements Comparable<Produto> {
     }
 }
 
-// ProdutoService.java
+
 import java.util.*;
 
 public class ProdutoService {
@@ -55,7 +54,6 @@ public class ProdutoService {
     }
 }
 
-// Main.java (Busca Binária)
 import java.util.*;
 
 public class MainBuscaBinaria {
@@ -102,9 +100,7 @@ public class MainBuscaBinaria {
     }
 }
 
-// === Parte 2: Árvore Binária ===
 
-// ArvoreProduto.java
 class ArvoreProduto {
     private static class No {
         Produto produto;
@@ -150,7 +146,7 @@ class ArvoreProduto {
     }
 }
 
-// Main.java (Árvore Binária)
+
 import java.util.*;
 
 public class MainArvoreBinaria {
